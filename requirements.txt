@@ -3,5 +3,5 @@ pandas
 matplotlib
 seaborn
 streamlit_shadcn_ui
-st_aggrid
+streamlit-aggrid
 missingno
