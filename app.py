@@ -45,7 +45,7 @@ def ml_model():
     col1, col2, col3, col4 = st.columns(4)
     with col1:        
         ui.card(title="Model Score", content="94%", description="Random Forest Classifier", key="card1").render()
-        ui.link_button(text="Notebook", url="https://github.com/ObservedObserver/streamlit-shadcn-ui", key="link_btn")
+        ui.link_button(text="Notebook", url="https://drive.google.com/file/d/1G2GsJwMlcntTCV5f7ed-1KhWJclQnyae/view?usp=sharing", key="link_btn")
    
         
 
