@@ -52,7 +52,7 @@ def ml_model():
 def main():
     data = load_data("customer_transaction_details", "customers_df")
     st.title("Assignment")
-    select = ui.tabs(options=['Dataset Overview','EDA', 'Model'], default_value='Overview', key="kanaries")
+    select = ui.tabs(options=['Dataset Overview','EDA', 'Model'], default_value='Dataset Overview', key="kanaries")
     if select == "Dataset Overview":
         st.write("There are two data set in the form of CSV files. The first dataset contains transaction details of customers and the second dataset contains customer details. The goal is to analyze the data and build a model to predict fraud in the transactions.")    
         st.write("I had merged the datasets on the customerEmail column to create a single dataset for analysis.")
