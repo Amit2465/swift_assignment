@@ -375,7 +375,7 @@ def main():
                 
         st.markdown("---")
         st.markdown('### Correlation Analysis')
-        
+        data = pd.read_csv("remove_outliers.csv")
         col13, col14 = st.columns([1.4,1])
         with col13:
             with card_container(key="heatmap1"):
